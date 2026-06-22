@@ -1,0 +1,13 @@
+.preview { display: flex; flex-direction: column; gap: 20px; height: 600px; overflow: hidden; }
+.preview-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e0e0e0; padding-bottom: 15px; }
+.preview-actions { display: flex; gap: 10px; }
+.action-btn { padding: 8px 16px; border: 2px solid #e0e0e0; background: white; border-radius: 6px; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: all 0.3s; }
+.action-btn:hover { border-color: #667eea; color: #667eea; }
+.action-btn.primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; color: white; }
+.preview-content { overflow-y: auto; border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #fafafa; flex: 1; }
+.preview-content h1 { font-size: 2em; border-bottom: 3px solid #667eea; padding-bottom: 10px; }
+.preview-content h2 { font-size: 1.5em; color: #667eea; }
+.preview-content p, .preview-content li { color: #555; line-height: 1.6; margin-bottom: 10px; }
+.preview-content code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-family: monospace; color: #e91e63; }
+.preview-content pre { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 6px; overflow-x: auto; margin: 15px 0; }
+.preview-content ul, .preview-content ol { margin-left: 20px; margin-bottom: 10px; }
