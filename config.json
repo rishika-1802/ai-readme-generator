@@ -1,0 +1,19 @@
+{
+  "model": "mistral",
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "ollama_host": "http://localhost:11434",
+  "max_tokens": 2048,
+  "include_sections": [
+    "description",
+    "installation",
+    "usage",
+    "api",
+    "contributing",
+    "license",
+    "troubleshooting",
+    "changelog"
+  ],
+  "template": "default",
+  "verbosity": "info"
+}
