@@ -4,13 +4,13 @@ An intelligent tool that automatically generates comprehensive README files for 
 
 ## Features
 
-- 🤖 **AI-Powered Generation** - Uses Ollama with local language models (no API keys needed)
-- 📁 **Local Repository Analysis** - Scans your project files to understand structure and purpose
-- 🌐 **GitHub Integration** - Fetch and analyze repositories directly from GitHub URLs
-- 💻 **Web UI** - Beautiful, intuitive interface for easy README generation
-- 📝 **Comprehensive Documentation** - Generates all sections
-- 🎨 **Customizable Templates** - Adapt generated README to your needs
-- ⚙️ **Model Flexibility** - Works with any Ollama-supported model
+- **AI-Powered Generation** - Uses Ollama with local language models (no API keys needed)
+- **Local Repository Analysis** - Scans your project files to understand structure and purpose
+- **GitHub Integration** - Fetch and analyze repositories directly from GitHub URLs
+- **Web UI** - Beautiful, intuitive interface for easy README generation
+- **Comprehensive Documentation** - Generates all sections
+- **Customizable Templates** - Adapt generated README to your needs
+- **Model Flexibility** - Works with any Ollama-supported model
 
 ## Quick Start
 
